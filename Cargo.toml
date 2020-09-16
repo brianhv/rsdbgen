@@ -1,0 +1,15 @@
+[package]
+name = "rsdbgen"
+version = "0.1.0"
+authors = ["Brian Victor <github@brianhv.org>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+sqlx = { version = "0.4.0-beta.1", default-features = false, features = [ "runtime-tokio", "macros", "postgres" ] }
+codegen = "0.1.3"
+tokio = { version = "0.2.22", features = ["macros"] }
+anyhow = "1.0.32"
+Inflector = "0.11.4"
+itertools = "0.9.0"
