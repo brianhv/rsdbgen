@@ -1,6 +1,6 @@
 # Rust code generation for sqlx CRUD
 
-**This is a prototype!** There's nothing robust about this yet and should not be relied upon.
+**This is a prototype!** There's nothing robust about this yet and it should not be relied upon.
 
 This inspects a database (tested on Postgres) and generates structs and functions to query the tables in the database.
 
